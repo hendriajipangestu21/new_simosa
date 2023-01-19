@@ -1,0 +1,60 @@
+body
+{
+    position: relative;
+    background-image: url(../../../image/background/gate.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kontener
+{
+    width: 30%;
+    margin: 100px auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+.registrasi
+{
+    width: 50%;
+    margin: 100px auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+.kontener h1
+{
+    color: crimson;
+    margin-bottom: 5px;
+}
+
+.kontener h4
+{
+    color: darkblue;
+    font-size: 23px;
+}
+
+.kontener .form-control
+{
+    font-size: 19px;
+}
+
+
+.tombol-login
+{
+    transition: 1s;
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px) 
+{
+    .kontener
+    {
+        width: 98%;
+        margin: 10px auto;
+    }
+}
